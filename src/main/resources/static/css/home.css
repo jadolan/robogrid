@@ -4,15 +4,19 @@
     margin: 2% auto;
 }
 
-.textarea {
-    display: block;
-    width: 80%;
+.container-fluid {
+    width: 40%;
     height: auto;
 }
 
-.container-fluid {
-    width: 50%;
-    height: auto;
+.form-group {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+#btn-wrapper {
+    display: block;
+    margin-bottom: 1rem;
 }
 
 .col {

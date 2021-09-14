@@ -12,14 +12,15 @@
         <h1>Robot Command Application</h1>
         <p>Tell the robot how to move across the grid.</p>
 
-        <p>
-            <textarea id="script" rows="7" cols="50" maxlength="512"></textarea>
-        </p>
-        <p>
-            <button class="btn btn-success">Move Robot</button>
-        </p>
-
         <div class="container-fluid">
+            <div class="row">
+                <div class="form-group">
+                    <textarea id="script" class="form-control" rows="7" cols="50" maxlength="512"></textarea>
+                </div>
+            </div>
+            <div class="row justify-content-center" id="btn-wrapper">
+                <button id="move" class="btn btn-success">Move Robot</button>
+            </div>
             <div class="row row-eq-height">
                 <div id="0-0" class="border border-dark col"></div>
                 <div id="0-1" class="border border-dark col"></div>
