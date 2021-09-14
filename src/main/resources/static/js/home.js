@@ -20,9 +20,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         "FORWARD 2 //lets the robot do 2 steps forward"
 });
 
-
-document.addEventListener('click', function (event) {
-	if (!event.target.matches('.btn')) return;
+document.getElementById("move").addEventListener('click', function (event) {
 	getRobotPosition();
 }, false);
 
