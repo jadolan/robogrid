@@ -23,12 +23,13 @@ The app is available at http://localhost:3050/
 
 ### Done
 
-- backend and frontend components to calculate and display robot position in grid
-- tests for backend
+- backend component to calculate robot position based on script
+- frontend components make call to backend and display robot in grid
+- backend tests
 
-### Todo
+### Next Steps
 
 - use framework to implement frontend (possibly vue)
-- improve styling
 - input validation on the frontend
 - more sophisticated error handling in the backend: don't just ignore invalid commands, return feedback
+- create Dockerfile to deploy app easily
